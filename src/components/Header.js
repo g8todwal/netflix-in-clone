@@ -25,7 +25,7 @@ const Header = () => {
 					<input type="text" 
 						placeholder="Email Address" name="email" className="input"/>
 					<button className="start-btn"><a href="https://netflix-clone-9f97a.web.app/"
-					 >GET STARTED<Icon icon={ic_keyboard_arrow_right} size={30} /></a></button>	
+					 >GET DEMO<Icon icon={ic_keyboard_arrow_right} size={30} /></a></button>	
 				</form>
 			</div>
 		</div>
