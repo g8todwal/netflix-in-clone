@@ -1,0 +1,64 @@
+.tabs {
+	padding-top:  1rem;
+}
+
+.tab-list {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	text-align:  center;
+	grid-template-columns: repeat(3 ,1fr);
+	grid-gap: 1rem;
+	color: var(--main-grey);
+	margin: 0 10%;
+}
+
+.tab {
+ 	list-style-type: none;  
+}
+
+.tab-door {
+	width: 2.8125rem;
+	height: 2.8125rem;
+	fill: var(--main-grey);
+}
+
+.tab-devices {
+	width: 9.6875rem;
+	height: 9.6875rem;
+	fill: var(--main-grey);
+}
+
+.tab-price {
+	width: 4.375rem;
+	height: 3.745rem;
+	fill: var(--main-grey);
+}
+
+.tab:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+ul li:hover svg path {
+	fill: #fff;
+	cursor: pointer;
+}
+
+.active {
+	border-bottom: 4px solid var(--main-red);
+	fill: #fff;
+	color: #fff;
+}
+
+.tab-selected {
+	color: #fff;
+}
+
+.tab-selected svg path {
+	fill: #fff;
+}
+
+.tab > p {
+	margin-bottom: 1.875rem;
+}
