@@ -68,21 +68,24 @@ ul li:hover svg path {
 	.tab-door {
 		width: 2rem;
 		height: 2rem;
+		margin-left: -50px;
 	}
 
 	.tab-devices {
-		width: 9rem;
+		width: 7rem;
 		height: 9rem;
+		margin-bottom: 4px;
 	}
 
 	.tab-price {
-		width: 4rem;
+		width: 3rem;
 		height: 3rem;
 	}
 
 	.para-tab-1 {
 		font-size: 0.8rem;
 		margin-left: -1rem;
+		text-align: left;
 	}
 
 	.para-tab-2 {
