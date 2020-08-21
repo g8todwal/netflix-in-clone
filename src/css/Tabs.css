@@ -62,3 +62,41 @@ ul li:hover svg path {
 .tab > p {
 	margin-bottom: 1.875rem;
 }
+
+@media(max-width: 575px) {
+
+	.tab-door {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.tab-devices {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.tab-price {
+		width: 4rem;
+		height: 3rem;
+	}
+
+	.para-tab-1 {
+		font-size: 0.8rem;
+		margin-left: -1rem;
+	}
+
+	.para-tab-2 {
+		font-size: 0.8rem;
+	}
+
+	.para-tab-3 {
+		font-size: 0.8rem;
+	}
+
+	.tab {
+		margin-left: -1rem;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}

@@ -52,3 +52,31 @@
 	margin-top: 2rem;
 	font-size: 0.8rem;
 }
+
+@media(max-width: 575px){
+
+	.footer-span {
+		margin-left: 40px;
+	}
+
+	.netflix {
+		margin-left: 40px;
+	}
+
+	.lang-btn {
+		margin-left: 40px;
+	}
+
+	.footer-column {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-left: 10px;
+		margin-top: 0px;
+		padding: 0.3rem; 
+	}
+
+	.name {
+		margin-left: -15px;
+	}
+
+}

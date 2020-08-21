@@ -103,3 +103,32 @@ form {
 	font-size: 1.2rem;
 }
 
+@media(max-width: 575px) {
+
+	.content1 {
+		font-size: 2rem;
+	}
+
+	.content2 {
+		font-size: 1.5rem;
+	}
+
+	.content3 {
+		font-size: 1rem;
+		padding-left: 5px;
+		padding-right: 5px; 
+	}
+
+	form {
+		display: block;
+	}
+
+	.input {
+		width: 85%;
+	}
+
+	.start-btn {
+		margin-top: 4px;
+	}
+
+}

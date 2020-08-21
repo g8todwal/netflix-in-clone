@@ -3,6 +3,8 @@ import '../css/Footer.css';
 import { Icon } from 'react-icons-kit';
 import {ic_language} from 'react-icons-kit/md/ic_language';
 import {ic_arrow_drop_down} from 'react-icons-kit/md/ic_arrow_drop_down';
+import {ic_favorite} from 'react-icons-kit/md/ic_favorite'
+import {ic_build} from 'react-icons-kit/md/ic_build'
 
 const Footer = () => {
 	return (
@@ -43,7 +45,7 @@ const Footer = () => {
 			</div>
 			<div className="netflix">
 				Netflix India <br /><br />
-				Made By :- Gaurav Todwal (gauravtodwal56@gmail.com)
+				<span className="name"><Icon icon={ic_build} size={15} /> with <Icon icon={ic_favorite} size={15} /> by Gaurav Todwal(gauravtodwal56@gmail.com)</span>
 			</div>
 		</div>
 	);

@@ -90,3 +90,34 @@
 	background: #222;
 }
 
+@media(max-width: 575px){
+
+	.tab-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tab-one-img {
+		width: 22rem;
+		margin-left: -60px;
+	}	
+
+	.tab-two-img {
+		width: 20rem;
+		margin-top: -5px;
+		margin-left: -50px;
+	}
+
+	.tabthree-span {
+		margin-left: 0px;
+	}
+
+	.table {
+		margin-left: 20px
+	}
+
+	.table > tbody > tr > td {
+		padding: 0.8rem 0.5rem;
+	}
+
+}

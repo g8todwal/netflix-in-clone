@@ -11,7 +11,7 @@ const TabTwo = () => {
 		<div className="container">
 			<div className="tab-content">
 				<span>
-					{" "} Watch TV shoes and movies anytime, anywhere - <br />
+					{" "} Watch TV shows and movies anytime, anywhere - <br />
 					personalised for you. { " " }
 					<button className="tab-btn"><a href="https://netflix-clone-9f97a.web.app/">GET STARTED<Icon icon={ic_keyboard_arrow_right} size={20} /></a></button>		
 				</span>

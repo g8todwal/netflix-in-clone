@@ -22,7 +22,7 @@ const TabsComponent = () => {
 				<TabList className="tab-list">
 			    	<Tab className={`tab tab1 ${tabIndex === 0 && "tab-selected active"}`} >
 			    		<Door />
-			    		<p>
+			    		<p className="para-tab-1">
 				    		<strong>
 				    			No Commitments <br />
 				    			Cancel online at anytime
@@ -31,7 +31,7 @@ const TabsComponent = () => {
 			    	</Tab>
 			    	<Tab className={`tab tab2 ${tabIndex === 1 && "tab-selected active"}`} >
 			    		<Devices />
-			    		<p style={{marginTop: '-6.00rem'}}>
+			    		<p style={{marginTop: '-6.00rem'}} className="para-tab-2" >
 			    			<strong>
 			    				Watch anywhere
 			    			</strong>
@@ -39,7 +39,7 @@ const TabsComponent = () => {
 			    	</Tab>
 			    	<Tab className={`tab tab3 ${tabIndex === 2 && "tab-selected active"}`}>
 			    		<Price />
-			    		<p>
+			    		<p className="para-tab-3">
 				    		<strong>
 				    			Pick your price
 				    		</strong>
